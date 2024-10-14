@@ -149,7 +149,6 @@
             "Games",
             "Graphics",
             "Internet",
-            "Office",
             "Multimedia",
             "Preferences"
         ]
@@ -157,37 +156,37 @@
     "custom-menu-width": {
         "type": "generic",
         "default": 800,
-        "value": 259.3583068847656
+        "value": 200
     },
     "custom-menu-height": {
         "type": "generic",
         "default": 530,
-        "value": 486.07379150390625
+        "value": 111.3724365234375
     },
     "recent-apps": {
         "type": "generic",
         "default": [],
         "value": [
-            "org.gnome.Calculator.desktop",
-            "mintinstall.desktop",
-            "xed.desktop",
-            "nemo.desktop",
-            "net.nokyan.Resources.desktop:flatpak",
+            "com.github.maoschanz.drawing.desktop",
             "cinnamon-settings-themes.desktop",
-            "mintdrivers.desktop",
-            "com.google.Chrome.desktop:flatpak",
-            "sticky.desktop",
-            "alacarte-made-05006a76-d8ab-11ee-b7b0-b39279091140.desktop",
-            "steam.desktop",
+            "firefox.desktop",
+            "org.gnome.FileRoller.desktop",
+            "cinnamon-settings-startup.desktop",
             "org.atheme.audacious.desktop:flatpak",
             "org.gnome.Terminal.desktop",
-            "org.kde.kdenlive.desktop:flatpak",
-            "com.github.vikdevelop.timer.desktop:flatpak",
             "cinnamon-settings-keyboard.desktop",
-            "firefox.desktop",
-            "org.gnome.DiskUtility.desktop",
-            "timeshift-gtk.desktop",
-            "lightdm-settings.desktop"
+            "vim.desktop",
+            "org.kde.konsole.desktop",
+            "vifm.desktop",
+            "gucharmap.desktop",
+            "nemo.desktop",
+            "alacarte-made-05006a76-d8ab-11ee-b7b0-b39279091140.desktop",
+            "com.obsproject.Studio.desktop:flatpak",
+            "io.github.celluloid_player.Celluloid.desktop",
+            "org.flameshot.Flameshot.desktop",
+            "cinnamon-settings.desktop",
+            "cinnamon-settings-default.desktop",
+            "com.google.Chrome.desktop:flatpak"
         ]
     },
     "search-start-folder": {
@@ -261,7 +260,7 @@
             "None": 2
         },
         "tooltip": "Choose where to show application descriptions",
-        "value": 0
+        "value": 1
     },
     "show-categories": {
         "type": "switch",
@@ -594,7 +593,7 @@
         "default_category": "Linux",
         "default_icon": "cinnamon-symbolic",
         "tooltip": "Panel icon",
-        "value": "shutter-panel"
+        "value": "screensaver-blank"
     },
     "menu-icon-size-custom": {
         "type": "checkbox",
@@ -613,7 +612,7 @@
         "description": "Panel icon size (pixels)",
         "dependency": "menu-icon-size-custom",
         "tooltip": "Choose a custom size for the panel icon",
-        "value": 29
+        "value": 20
     },
     "menu-label": {
         "type": "entry",
@@ -643,7 +642,7 @@
         "units": "",
         "description": "Applications list icon size (pixels)",
         "tooltip": "Applications list icon size (pixels)",
-        "value": 30
+        "value": 20
     },
     "apps-grid-icon-size": {
         "type": "spinbutton",
@@ -654,7 +653,7 @@
         "units": "",
         "description": "Applications grid icon size (pixels)",
         "tooltip": "Applications grid icon size (pixels)",
-        "value": 32
+        "value": 20
     },
     "sidebar-icon-size": {
         "dependency": "show-sidebar",
