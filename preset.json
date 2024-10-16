@@ -161,32 +161,32 @@
     "custom-menu-height": {
         "type": "generic",
         "default": 530,
-        "value": 111.3724365234375
+        "value": 23.3724365234375
     },
     "recent-apps": {
         "type": "generic",
         "default": [],
         "value": [
-            "com.github.maoschanz.drawing.desktop",
-            "cinnamon-settings-themes.desktop",
-            "firefox.desktop",
+            "cinnamon-settings-default.desktop",
+            "com.google.Chrome.desktop:flatpak",
+            "org.gnome.DiskUtility.desktop",
+            "cinnamon-settings-keyboard.desktop",
+            "alacarte-made-05006a76-d8ab-11ee-b7b0-b39279091140.desktop",
+            "mintupdate.desktop",
+            "com.discordapp.Discord.desktop:flatpak",
             "org.gnome.FileRoller.desktop",
+            "thunderbird.desktop",
+            "gucharmap.desktop",
+            "org.kde.konsole.desktop",
+            "cinnamon-settings-themes.desktop",
+            "vim.desktop",
+            "mintinstall.desktop",
+            "org.gnome.Terminal.desktop",
+            "com.github.maoschanz.drawing.desktop",
+            "firefox.desktop",
             "cinnamon-settings-startup.desktop",
             "org.atheme.audacious.desktop:flatpak",
-            "org.gnome.Terminal.desktop",
-            "cinnamon-settings-keyboard.desktop",
-            "vim.desktop",
-            "org.kde.konsole.desktop",
-            "vifm.desktop",
-            "gucharmap.desktop",
-            "nemo.desktop",
-            "alacarte-made-05006a76-d8ab-11ee-b7b0-b39279091140.desktop",
-            "com.obsproject.Studio.desktop:flatpak",
-            "io.github.celluloid_player.Celluloid.desktop",
-            "org.flameshot.Flameshot.desktop",
-            "cinnamon-settings.desktop",
-            "cinnamon-settings-default.desktop",
-            "com.google.Chrome.desktop:flatpak"
+            "vifm.desktop"
         ]
     },
     "search-start-folder": {
